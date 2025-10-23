@@ -1,0 +1,6 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Blue-Ring', 'Mobile-Goal', 'Red-Ring', 'Yellow-Stake-Head', 'zblue-Stake-Head', 'zred-Stake-Head']
