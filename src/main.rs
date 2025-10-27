@@ -18,7 +18,7 @@ fn rename_files_in_folder_for_yolov4(folder: &str) {
         let path = entry.path();
         if let Some(ext) = path.extension() {
             if ext == "jpg" || ext == "png" || ext == "jpeg" { 
-                let img_stem = path.file_stem().unwrap().to_str().unwrap();
+                // let img_stem = path.file_stem().unwrap().to_str().unwrap();
                 let txt_file = path.with_extension("txt");
                 
                 if txt_file.exists() {
